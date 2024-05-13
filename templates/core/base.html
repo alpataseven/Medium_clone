@@ -1,0 +1,327 @@
+{% load static %}
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medium Clone</title>
+    <link rel="shortcut icon" href="{% static 'media_files/medium.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    {% include 'core/navbar.html' %}
+    <div class="bg-warning border-bottom border-dark"> <!--Hero Start-->
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 class="display-1">Stay curious.</h2>
+                    <p class="lead">Discover stories, thinking, and expertise from writers on any topic.</p>
+                    <a href="#" class="btn btn-dark rounded-pill text-light px-4 py-1">Start Reading</a>
+                </div>
+                <div class="col-sm-6 gap-4">
+                    <div class="d-flex justify-content-center">
+                        <img src="{% static 'media_files/medium.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--Hero End-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 mt-5">
+                <h6 class="text-uppercase"><span class="badge text-bg-dark rounded-circle p-2"><i
+                            class="fa-solid fa-arrow-trend-up"></i></span> Trending On Medium</h6>
+            </div>
+        </div>
+        <div class="row">
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-2 text-muted fs-1 op-02">01</div>
+                    <div class="col-10 mt-3">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item"><i class="fa-regular fa-bookmark bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-2 text-muted fs-1 op-02">02</div>
+                    <div class="col-10 mt-3">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item"><i class="fa-regular fa-bookmark bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-2 text-muted fs-1 op-02">03</div>
+                    <div class="col-10 mt-3">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item"><i class="fa-regular fa-bookmark bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="row">
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-2 text-muted fs-1 op-02">04</div>
+                    <div class="col-10 mt-3">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item"><i class="fa-regular fa-bookmark bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-2 text-muted fs-1 op-02">05</div>
+                    <div class="col-10 mt-3">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item"><i class="fa-regular fa-bookmark bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-2 text-muted fs-1 op-02">06</div>
+                    <div class="col-10 mt-3">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item"><i class="fa-regular fa-bookmark bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <hr>
+
+    <section class="container mt-5">
+        <div class="row">
+            <main class="col-sm-7">
+                <article class="row mb-3">
+                    <div class="col-sm-8">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <h4 class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item">
+                                        <span class="badge text-bg-secondary">History</span>
+                                    </li>
+                                    <li class="list-inline-item float-end"><i class="fa-regular fa-bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/110/200/150?grayscale" alt="" class="w-100 img-thumbnail">
+                    </div>
+                </article>
+                <hr>
+                <article class="row mb-3">
+                    <div class="col-sm-8">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <h4 class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item">
+                                        <span class="badge text-bg-secondary">History</span>
+                                    </li>
+                                    <li class="list-inline-item float-end"><i class="fa-regular fa-bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/110/200/150?grayscale" alt="" class="w-100 img-thumbnail">
+                    </div>
+                </article>
+                <hr>
+                <article class="row mb-3">
+                    <div class="col-sm-8">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <h4 class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item">
+                                        <span class="badge text-bg-secondary">History</span>
+                                    </li>
+                                    <li class="list-inline-item float-end"><i class="fa-regular fa-bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/110/200/150?grayscale" alt="" class="w-100 img-thumbnail">
+                    </div>
+                </article>
+                <hr>
+                <article class="row mb-3">
+                    <div class="col-sm-8">
+                        <div>
+                            <a href="#" class="text-decoration-none text-muted">
+                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <small class="ms-2">Tom Cooper</small>
+                                <h2 class="h6 mt-1">Lorem ipsum dolor sit.</h2>
+                            </a>
+                        </div>
+                        <h4 class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
+                        <div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <ul class="list-inline fs-12 op-04">
+                                    <li class="list-inline-item">Sep 28</li>
+                                    <li class="list-inline-item">2 min read</li>
+                                    <li class="list-inline-item">
+                                        <span class="badge text-bg-secondary">History</span>
+                                    </li>
+                                    <li class="list-inline-item float-end"><i class="fa-regular fa-bookmark"></i></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/110/200/150?grayscale" alt="" class="w-100 img-thumbnail">
+                    </div>
+                </article>
+            </main>
+            <aside class="col-sm-4 offset-sm-1 border-start">
+                <h6 class="text-uppercase my-3">Discover more of what matters to you</h6>
+                <ul class="list-inline mb-3">
+                    <li class="list-inline-item border p-2 text-muted fs-12 mb-1 rounded">Lorem, ipsum dolor.</li>
+                    <li class="list-inline-item border p-2 text-muted fs-12 mb-1 rounded">Corporis, sint error?</li>
+                    <li class="list-inline-item border p-2 text-muted fs-12 mb-1 rounded">Illum, minima itaque?</li>
+                    <li class="list-inline-item border p-2 text-muted fs-12 mb-1 rounded">Id, voluptatem dolor.</li>
+                    <li class="list-inline-item border p-2 text-muted fs-12 mb-1 rounded">Enim, tempore alias!</li>
+                    <li class="list-inline-item border p-2 text-muted fs-12 mb-1 rounded">Sed, iste quisquam.</li>
+                </ul>
+                <hr>
+                <ul class="list-inline mt-3">
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted fs-12">Lorem.</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted fs-12">Tempore!</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted fs-12">Soluta.</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted fs-12">In.</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted fs-12">Doloribus.</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted fs-12">Repellat?</a></li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+</body>
+
+</html>
